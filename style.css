@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    --x: 50%;
+    --y: 50%;
+}
+
+body {
+    height: 100%;
+    background: radial-gradient(circle at var(--x) var(--y), khaki, ghostwhite);
+    /*background-color: antiquewhite;*/
+}
+
+:root {
+    font-family: Rubik;
+}
+
+main {
+    max-width: 620px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+h1 {
+    padding: .5rem 0;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    font-weight: normal;
+}
+
+.lista-produtos a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.lista-produtos a:hover {
+    font-weight: bold;
+}
+
+.lista-produtos li {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
